@@ -1,0 +1,40 @@
+.content {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.span {
+  color: rgb(184, 31, 184);
+}
+.button {
+  margin: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(45deg, orange, rgba(255, 255, 255, 0)),
+    linear-gradient(magenta, rgba(255, 255, 255, 0)),
+    linear-gradient(-45deg, cyan, rgba(255, 255, 255, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
