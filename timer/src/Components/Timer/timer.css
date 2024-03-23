@@ -6,8 +6,11 @@
   height: 80vh;
   flex-direction: column;
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
+}
+.inner-content {
+  margin: 20px;
 }
 .span {
   color: rgb(184, 31, 184);
@@ -37,4 +40,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.msg {
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  font-size: 25px;
+  color: blue;
 }
